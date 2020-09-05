@@ -6,7 +6,7 @@ from services import PaymentService, AbstractPayServiceProvider, GoolePayService
     AliPayServiceProvider
 from containers import Container
 
-if __name__ == 'main':
+if __name__ == '__main__':
     container = Container()
 
     # emulate random choice of payment service provider

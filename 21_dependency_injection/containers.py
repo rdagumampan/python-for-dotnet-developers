@@ -1,5 +1,5 @@
 from dependency_injector import providers, containers
-from main import PaymentService, AbstractPayServiceProvider, GoolePayServiceProvider, ApplePayServiceProvider, \
+from services import PaymentService, AbstractPayServiceProvider, GoolePayServiceProvider, ApplePayServiceProvider, \
     AliPayServiceProvider
 
 
